@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.logo {
+    height: 100%;
+    margin-right: 2%;
+
+}
+
+a {
+    height:100%;
+    margin-right: 2%;
+    color: black;
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+    background: #6A2197;
+}
+
+.inputs {
+
+    height: 30%;
+    width: 80%;
+}
+
+p {
+    display: inline-block;
+    margin-left: 3%;
+    font-size: 1.4vw;
+}
+
+.inputs input {
+
+    height: 80%;
+    width: 50%;
+    border-radius: 12px;
+}
+
+.divicons {
+    background-color: #B900D7;
+    width: 100%;
+    height: 2%;
+
+
+}
+
+ul {
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+}
+
+li {
+font-size: 2vh;
+text-decoration: none;
+}
+
+#contate{ display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    width: 20%;
+    height: 10%;
+    background: #6A2197;
+    font-size: 2vw;
+    margin-top: 5%;
+}
+
+#contato{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4vw;
+    margin-top: 1%;
+}
+
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 80%;
+    grid-template-areas: "um dois";
+    gap: 40px;
+    width: 90%;
+    height: 70%;
+    margin: auto;
+    margin-top: 2%;
+}
+
+#um{
+    background: #3D0F58;
+    grid-area: um;
+}
+
+#dois{
+    background: #6A2197;
+    grid-area: dois;
+}
+
+section>div{
+    height: 120%;
+}
+
+#um input{
+    margin-left: 5%;
+    height: 10%;
+    width: 90%;
+    margin-top: 2%;
+font-size: 3vh;
+}
+
+#um #mensagem{
+    height: 55%;
+}
+
+#um #button{
+ margin-top: 2%;
+ margin-left: 25%;
+height: 10%;
+    width: 50%;
+}
+
+#dois p{
+    font-size: 2vw;
+    padding: 55px;
+    color: white;
+}
+
+footer{
+    text-align: center;
+background: #3D0F58;
+height: 10%;
+width: 100%;
+margin-top: 7%;
+}
+
+footer img{
+width: 12%;
+margin-top: 1.1%;
+}
+
+footer p{
+    font-size: 4vh;
+    padding: 1%;
+}
+
+.inputs p:hover{
+    cursor: pointer;
+}
+
+li:hover{
+    cursor: pointer;
+}
+
+img:hover{
+    cursor: pointer;
+}
